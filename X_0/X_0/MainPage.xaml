@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:X_0"
+             x:Class="X_0.MainPage">
+
+  <StackLayout x:Name="stackLayout">
+    <Button x:Name="button1"  Text="Гра" FontSize="Large" Clicked="button1_Click"/>
+    <Button x:Name="button2"  Text="Настройки" FontSize="Large" Clicked="button2_Click"/>
+    <Button x:Name="button3"  Text="Вийти" FontSize="Large" Clicked="button3_Click"/>
+  </StackLayout>
+
+</ContentPage>
